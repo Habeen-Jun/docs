@@ -58,11 +58,20 @@
       ]
     },
     {
+      "group": "Quick Start",
+      "pages": [
+        "quickstart/adding-a-chatbot",
+        "quickstart/adding-a-client",
+        "quickstart/customizing-a-webchat-project-setting",
+        "quickstart/deploying-a-project"
+      ]
+    },
+    {
       "group": "ChatDash",
       "pages": [
-        "What is ChatDash?/intro"
+        "ChatDash/overview"
       ]
-    }
+    },
     {
       "group": "Essentials",
       "pages": [
@@ -92,6 +101,7 @@
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://www.linkedin.com/company/mintsearch",
+    "discord": "https://discord.gg/8Z8vZ8Q"
   }
 }
