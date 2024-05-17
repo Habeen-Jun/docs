@@ -58,6 +58,12 @@
       ]
     },
     {
+      "group": "ChatDash",
+      "pages": [
+        "intro"
+      ]
+    }
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
