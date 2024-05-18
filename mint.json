@@ -1,60 +1,47 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "ChatDash Official Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/chat-dash.png",
+    "light": "/logo/chat-dash.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#1e6bd8",
+    "light": "#1e6bd8",
+    "dark": "#1e6bd8",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#1e6bd8",
+      "to": "#1e6bd8"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@chat-dash.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://chat-dash.com/clients"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.chat-dash.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.com/invite/R9dx4mZphS"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "ChatDash",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "ChatDash/overview"
       ]
     },
     {
@@ -67,41 +54,38 @@
       ]
     },
     {
-      "group": "ChatDash",
+      "group": "Agency Dashboard",
       "pages": [
-        "ChatDash/overview"
+        "agency-dashboard/overview",
+        "agency-dashboard/client-access",
+        "agency-dashboard/adding-a-custom-menu",
+        "agency-dashboard/adding-workspaces",
+        "agency-dashboard/project-usage-report",
+        "agency-dashboard/editing-chatbot-default-settings"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Client Dashboard",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "client-dashboard/overview"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Whitelabel",
       "pages": [
-        "api-reference/introduction"
+        "whitelabel/adding-a-custom-domain",
+        "whitelabel/customizing-branded-experience"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Channels",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "channels/overview"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch",
+    "youtube": "https://www.youtube.com",
     "discord": "https://discord.gg/8Z8vZ8Q"
   }
 }
