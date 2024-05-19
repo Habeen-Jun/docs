@@ -27,11 +27,6 @@
   },
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://docs.chat-dash.com"
-    },
-    {
       "name": "Discord Community",
       "icon": "discord",
       "url": "https://discord.com/invite/R9dx4mZphS"
@@ -61,7 +56,8 @@
         "agency-dashboard/adding-a-custom-menu",
         "agency-dashboard/adding-workspaces",
         "agency-dashboard/project-usage-report",
-        "agency-dashboard/editing-chatbot-default-settings"
+        "agency-dashboard/editing-chatbot-default-settings",
+        "agency-dashboard/language-settings"
       ]
     },
     {
@@ -82,10 +78,21 @@
       "pages": [
         "channels/overview"
       ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/support-and-resources"
+      ]
+    },
+    {
+      "group": "FAQs",
+      "pages": [
+        "faqs/faqs"
+      ]
     }
   ],
   "footerSocials": {
-    "youtube": "https://www.youtube.com",
     "discord": "https://discord.gg/8Z8vZ8Q"
   }
 }
