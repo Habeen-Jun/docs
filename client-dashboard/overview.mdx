@@ -11,12 +11,16 @@ The client can login to the dashboard using the agency's custom domain or the Ch
 There are three types of menus in the client dashboard:
 
 1. **Shared Client Menus**:
+<Note> We don't use the chatbot builders' APIs to handle Shared Client Menus. </Note>
     - **Analytics**: View Chatbot's metrics (# of messages, token usages, etc).
     - **Conversations**: View conversation history with the chatbot.
 
+
 2. **Platform Specific Menus**:
+<Note> We directly use the chatbot builders' APIs to handle Platform Specific Menus. </Note>
     - **Voiceflow**: FAQ, Tags, Knowledge Base.
     - **OpenAI**: Chat Interface, Knowledge Base, Edit Assistant.
+
 
 3. **Custom Menus**:
     - **Custom Menus**: Custom menus created by the agency for the client. (embedded iframe)
