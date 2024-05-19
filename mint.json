@@ -42,10 +42,10 @@
     {
       "group": "Quick Start",
       "pages": [
-        "quickstart/adding-a-chatbot",
-        "quickstart/adding-a-client",
-        "quickstart/customizing-a-webchat-project-setting",
-        "quickstart/deploying-a-project"
+        "quickstart/1.adding-a-chatbot",
+        "quickstart/2.adding-a-client",
+        "quickstart/3.customizing-a-webchat-project-setting",
+        "quickstart/4.deploying-a-project"
       ]
     },
     {
@@ -63,7 +63,35 @@
     {
       "group": "Client Dashboard",
       "pages": [
-        "client-dashboard/overview"
+        "client-dashboard/overview",
+        {
+          "group": "Shared Menus",
+          "pages": [
+            "client-dashboard/shared-menus/analytics",
+            "client-dashboard/shared-menus/conversations"
+          ]
+        },
+        {
+          "group": "Voiceflow Specific Menus",
+          "pages": [
+            "client-dashboard/voiceflow-menus/knowledgebase",
+            "client-dashboard/voiceflow-menus/tags",
+            "client-dashboard/voiceflow-menus/faq"
+          ]
+        },
+        {
+          "group": "OpenAI Specific Menus",
+          "pages": [
+            "client-dashboard/openai-menus/edit-assistant",
+            "client-dashboard/openai-menus/chat-interface"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Live Human Hands-Off",
+      "pages": [
+        "live-human-hands-off/overview"
       ]
     },
     {
