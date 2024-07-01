@@ -1,0 +1,127 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "ChatDash Official Documentation",
+  "logo": {
+    "dark": "/logo/chat-dash.png",
+    "light": "/logo/chat-dash.png"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1e6bd8",
+    "light": "#1e6bd8",
+    "dark": "#1e6bd8",
+    "anchors": {
+      "from": "#1e6bd8",
+      "to": "#1e6bd8"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@chat-dash.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://chat-dash.com/clients"
+  },
+  "anchors": [
+    {
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.com/invite/R9dx4mZphS"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "ChatDash",
+      "pages": [
+        "ChatDash/overview"
+      ]
+    },
+    {
+      "group": "Quick Start",
+      "pages": [
+        "quickstart/1.adding-a-chatbot",
+        "quickstart/2.adding-a-client",
+        "quickstart/3.customizing-a-webchat-project-setting",
+        "quickstart/4.deploying-a-project"
+      ]
+    },
+    {
+      "group": "Agency Dashboard",
+      "pages": [
+        "agency-dashboard/overview",
+        "agency-dashboard/client-access",
+        "agency-dashboard/adding-a-custom-menu",
+        "agency-dashboard/adding-workspaces",
+        "agency-dashboard/project-usage-report",
+        "agency-dashboard/editing-chatbot-default-settings",
+        "agency-dashboard/language-settings"
+      ]
+    },
+    {
+      "group": "Client Dashboard",
+      "pages": [
+        "client-dashboard/overview",
+        {
+          "group": "Shared Menus",
+          "pages": [
+            "client-dashboard/shared-menus/analytics",
+            "client-dashboard/shared-menus/conversations"
+          ]
+        },
+        {
+          "group": "Voiceflow Specific Menus",
+          "pages": [
+            "client-dashboard/voiceflow-menus/knowledgebase",
+            "client-dashboard/voiceflow-menus/tags",
+            "client-dashboard/voiceflow-menus/faq"
+          ]
+        },
+        {
+          "group": "OpenAI Specific Menus",
+          "pages": [
+            "client-dashboard/openai-menus/edit-assistant",
+            "client-dashboard/openai-menus/chat-interface"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Live Human Hands-Off",
+      "pages": [
+        "live-human-hands-off/overview",
+        "live-human-hands-off/using-live-human-hands-off"
+      ]
+    },
+    {
+      "group": "Whitelabel",
+      "pages": [
+        "whitelabel/adding-a-custom-domain",
+        "whitelabel/customizing-branded-experience"
+      ]
+    },
+    {
+      "group": "Channels",
+      "pages": [
+        "channels/overview"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/support-and-resources"
+      ]
+    },
+    {
+      "group": "FAQs",
+      "pages": [
+        "faqs/faqs"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "discord": "https://discord.gg/8Z8vZ8Q"
+  }
+}
